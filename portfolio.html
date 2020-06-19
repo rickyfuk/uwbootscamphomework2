@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title for portfolio -->
+    <title>Home page - about Ricky Fuk</title>
+    <!-- CSS reset -->
+    <link rel="stylesheet" type="text/CSS" href="assets/css/reset.css">
+    <!-- Connect to Bootstrap album -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+    <!-- BootstrapCDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Quicksand&family=Raleway&display=swap" rel="stylesheet">
+    <!-- Custom styles for the portfolio html -->
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    
+</head>
+
+<body class="portbody">
+    
+    <!-- Header section 
+         Description for this section:
+         Consists of a nav bar for the name and the nav link to other pages.-->
+    
+    <!-- For Developer:
+         Fixed nav bar tempatle copy from bootstrap 4.5 
+         Note: Same html header and footer code has been used for index.html, contact.html and portfolio.html 
+          !!!Please be remined that amendment are required for all three tabs if any changes on header and footer section -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="contianer">
+                <!-- For Developer:
+                     Personal name in text have been used instead of brand logo as default -->
+                <h1 class="navbar-brand">Chung Hei Fuk (Ricky)
+                </h1>
+            </div>    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <!-- For Developer:
+                             "ml-auto" have been used to make the nav selection bar move to right hand side" -->
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+        </nav>
+    </header>
+
+    <!-- Main body section
+        Description for this section:
+        Display the photo and the name of the project 
+
+        For Developer:
+        The Bootstrap Grid has been widely used for this section-->
+    <main class= "portmain">
+        <section>
+              <!-- For Developer:
+                 To create the grid, the following two steps have been taken place 
+                  1. Rows function in containers by 'class:"container"''
+                  2. Columns function in rows by 'class:"row mx-0"''
+                  3. "mx-0" have been used in rows setup is designed for 
+                      reinstante the left and right margin from the default with 
+                      no margin in xs screen 
+             -->
+            <div class= "container">
+                <div class= "row mx-0">
+                    <!-- First row with 12 column (this row is designed for title)
+                         Details for developer:
+                         1. 12 columns have been used for screen below medium
+                         2. 10 colums have been used for screen with large according to the requirment
+                            2 rows were unused intentionally
+                        -->
+                    <div class="border col-12 pl-3 pt-4 mt-3 col-md-12 px-md-4 col-lg-10 px-lg-5 standardcol">
+                        <h2>
+                            Portfolio
+                        </h2>
+                        <!-- "hr" has been used for the break line between the heading and the content-->
+                        <hr>
+                        <!--2nd row - The main content for the portfolio
+                            The layout for displaying the portfolio: 
+                                Screen size less than medium - one row 
+                                Screen size more or equal to medium - two row
+                             Details for developer:
+                             1. 'class="text-center"' have been used for the align the image in the middle of each column 
+                             2. "img-fluid" have been used to make the image responsive
+                             3. full width (12 grid / 1 column) has been applied to the screen size less than medium
+                             4. half width (6 grid / 2 column) has been applied to the screen size more or equal to medium
+                            -->
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6 text-center">
+                                <img src="assets/image/hw2-1.jpg" alt="Horiseon Refactor" class="img-fluid img-responsive">
+                                <div class="image-caption mx-auto">Horiseon Refactor
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 text-center">
+                                <img src="assets/image/hw2-2.jpg" alt="coming soon" class="img-fluid">
+                                <div class="image-caption mx-auto">Coming Soon
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 text-center">
+                                <img src="assets/image/hw2-3.jpg" alt="coming soon" class="img-fluid">
+                                <div class="image-caption mx-auto">Coming Soon
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 text-center">
+                                <img src="assets/image/hw2-4.jpg" alt="coming soon" class="img-fluid ">
+                                <div class="image-caption mx-auto">Coming Soon
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-6 text-center">
+                                <img src="assets/image/hw2-5.jpg" alt="coming soon" class="img-fluid">
+                                <div class="image-caption mx-auto">Coming Soon
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+
+    <footer>
+        <div>
+            &copy; Copyright
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
