@@ -218,49 +218,76 @@
 
     /* Part 8 Style for the form */
         /* **THIS PART FOR "contact.html" only** */
-    .form-control{
-        background-color: transparent; 
-        border: transparent;
-        border-bottom: 1px solid rgb(220, 105, 1);
-        border-radius:0px;
-    }
-
-    .form-control:focus {
-        background-color:  transparent!important;
-        color: rgb(220, 105, 1)!important;
-        border-color: rgb(220, 105, 1);
-        box-shadow: none;
-      }
-
-    
-      .form-control:valid {
+         /*  Part 1 Style for the input area
+             Details for developer:
+             - Set the background and border as transpartent 
+             - Set the input area background and border (except bottom one) as transparent
+             - Set the bottom border in "Orange" 
+          */
+        .form-control{
+            background-color: transparent; 
+            border: transparent;
+            border-bottom: 1px solid rgb(220, 105, 1);
+            border-radius:0px;
+        }
+        /*  Part 2 Style for the input area during focus status
+             Details for developer:
+             - Set the background and border reamin as the non-focus status 
+             ( the default setting is blue border and white background ) 
+             - took out the shadow feature from default
+             - set the text as "Orange" 
+          */
+        .form-control:focus {
+            background-color:  transparent!important;
+            color: rgb(220, 105, 1)!important;
+            border-color: rgb(220, 105, 1);
+            box-shadow: none;
+        }
+        /*  Part 3 Style for the input area when the input is DONE without error
+             Details for developer:
+             - Set the text color in "Light Grey"
+          */
+        .form-control:valid {
         color: rgb(140, 140, 140);
-      }
-
-
-    input:not(:placeholder-shown):not(:focus):invalid {
-        color: rgb(250,145,145);
-        border:rgb(250,145,145) 3px solid;
-        border-radius: 5px; 
-      }
-    
-    .emailreminder{
-        font-size: 80%;
-        font-style: italic;
-        padding-top: 1vh;
-        padding-left: 1vw;
-    }
-
-    textarea.form-control{
-        border:rgb(220, 105, 1) 1px solid;
-        border-radius: 5px;
-    }
-
-    .contactbody .btn-secondary{
-        background-color: rgb(220, 105, 1) ;
-        border: none;
-    }
-    
+        }
+        /*  Part 4 Style for the input area when the input is DONE with error
+             Details for developer:
+             - Set the text color in "Light Red"
+             - Set the 4 side border in "Light Red"
+             - add the "not(:focus)" in order not to activate this style when the user is still typing
+          */
+        input:not(:placeholder-shown):not(:focus):invalid {
+            color: rgb(250,145,145);
+            border:rgb(250,145,145) 3px solid;
+            border-radius: 5px; 
+        }
+        /*  Part 5 Style for the reminder for the email style
+             Details for developer:
+             - Set the text color in "orange"
+             - Set the text style as "italic" and change it smaller
+          */
+        .emailreminder{
+            font-size: 80%;
+            font-style: italic;
+            padding-top: 1vh;
+            padding-left: 1vw;
+        }
+        /*  Part 6 Style for the text area for the message box 
+             Details for developer:
+             - Set the 4 border as "orange"
+          */
+        textarea.form-control{
+            border:rgb(220, 105, 1) 1px solid;
+            border-radius: 5px;
+        }
+        /*  Part 7 Style for the submit button 
+             Details for developer:
+             - Set the button as "orange" background
+          */
+        .contactbody .btn-secondary{
+            background-color: rgb(220, 105, 1) ;
+            border: none;
+        }
     /* end of part 8 */
 
 
