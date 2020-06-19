@@ -306,7 +306,7 @@
             /* Unit 2 Style for background image */
                 /* Segment 1 Background style for Home 
                     Detail for developer:
-                    In the small screen of the "index.html", the background image "1738994" */
+                    In the small screen of the "index.html", the background image "1738994" is used */
                 /*  **THIS SEGMENT FOR "index.html" ONLY** */
                 .aboutmebody{
                     background-image: url(../image/pexels-photo-1738994-2.jpeg);
@@ -315,7 +315,7 @@
 
                 /* Segment 2 Background style for Portfolio 
                     Detail for developer:
-                    In the small screen of the "portfolio,html", the background image "768125" */
+                    In the small screen of the "portfolio,html", the background image "768125" is used */
                 /*  **THIS SEGMENT FOR "portfolio.html" ONLY** */
                 .portbody{
                     background-image: url(../image/pexels-photo-768125-portfolio.jpeg);
@@ -324,7 +324,7 @@
 
                 /* Segment 3 Background style for Contact 
                     Detail for developer:
-                    In the small screen of the "contact.html", the background image "1591062" */
+                    In the small screen of the "contact.html", the background image "1591062" is used*/
                 /*  **THIS SEGMENT FOR "contact.html" ONLY** */
                 .contactbody{
                     background-image: url(../image/pexels-photo-1591062-contact-2.jpeg);
@@ -386,6 +386,7 @@
                 }
                 /* end of Segment 3 */
             /* end of Unit 3 */
+        }
     /* end of Part 10 */
 
     /* Part 11 Style for Large devices (desktops, 992px and up) */
@@ -410,7 +411,7 @@
                 }
             /* end the Unit 2 */
         }
-    /* end of Part 11 */
+    /* end of Part 11 */ 
 /* end of Section 4 */
 
 /* Section 5 - Footer */
