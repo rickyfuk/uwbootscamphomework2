@@ -1,20 +1,20 @@
-# uwbootscamphomework2
 # Project Name
-> Homework 2 - Responsive Portfolio
+  Homework 2 - Responsive Portfolio
 
-## Table of contents
+# Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Features](#features)
 * [Code Style](#code-style)
-* [Screenshots](#screenshots)
 * [Technology](#technology)
-* [Action taken](#Action-taken)
+* [Code Example](#Code-Example)
+* [Test](#Test)
 * [Status](#status)
+* [Future plan](#furure-plan)
 * [Create By](#create-by)
 
-## General info
-This project is to bulid a personal portfolio where it will  change of the page content according to the screen size. 
+# General info
+This project is to bulid a personal portfolio where it will change of the page content according to the screen size (or so-called responsive). 
 
 This project consists of the following 3 pages:
 1. Home - a self-introduction inside the content of about me
@@ -23,14 +23,22 @@ This project consists of the following 3 pages:
 
 Please visit [https://rickyfuk.github.io/uwbootscamphomework2/](https://rickyfuk.github.io/uwbootscamphomework2/) for the site.
 
-## Screenshots
+For the feature of the site, please visit the [Features](#features) section for more details.
+
+# Screenshots
 ![screenshot](https://github.com/rickyfuk/uwbootscamphomework2/blob/9e0e8603170b92108b740949b9473dd02093d34f/assets/image/screenshot.PNG?raw=true)
 
-## Features
+# Features
 In this project, the following features have apply to the site:
 
-**Navgation Bar - Apply to all 3 pages (Home/Portofio/Contact)**
-1. A navagation bar that allowed the user to navagiate within these 3 pages
+## <span style="color: rgb(220, 105, 1);">General</span>
+1. Favicon has been added for all 3 pages
+2. Background-images will change based on the page and the viewpoint (details could refer to the features of each specific page)
+3. Most of the Background-images will roll down with the viewpoint (except the home screen with the screensize equal or bigger the large). 
+4. The footer is fixed at the bottom of the page regardless the size of the viewpoint
+
+## <span style="color: rgb(220, 105, 1);">Navgation Bar - Apply to all 3 pages (Home/Portofio/Contact)</span>
+1. A navagation bar that allowed the user to navagiate within all 3 pages
 2. The style for the page name will change when it is being in the following 4 status:
     -focus (when it is clicked)
     -hover (when the mouse over)
@@ -38,110 +46,170 @@ In this project, the following features have apply to the site:
     -visited (after the page is visited)
 3. The page selction on navagation bar will collapse into a toggle button when the screen size is below the medium one. (Please click the button to expand the list)
 
-**Home Page**
-1. The paragraph have been justify with full lenght
-2. The About me box will be change the layout as follow:
-| Screen Size |         Layout           |
-|:------------|:-------------------------|
-|below med    |one box in the middle     | 
-|med to large |one box in the middle     |
-|above large  |one box and right aligned |
-3. The background image will change when the screen size drop below med
-<div>
-  <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-1738994-2.jpeg?raw=true" alt="Hong Kong night view">
-  *This is the background image for screen size below med*
-  <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-1383562.jpeg?raw=true" alt="A black desktop with a tag">
-  *This is the background image for screen size above or equal to med*
-</div>
+## <span style="color: rgb(220, 105, 1);">Home Page</span>
+1. The paragraph style have been justify to full lenght
+2. The main body (About me box) layout will be change according to screen size as  the table below:
+    | Screen Size  |          Layout           |
+    | :----------: | :-----------------------: |
+    |  Below Med   |   one box in the middle   |
+    | Med to Large |   one box in the middle   |
+    | Equal or Above Large | one box and right aligned |
+3. The background image will change according to the screen size, details as below:
+    
+    | Screen Size  |          Background-image          |
+    | :----------: | :-----------------------: |
+    | <b> Below med </b>  |       <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-1738994-2.jpeg?raw=true" alt="Hong Kong night view" width="200px">  |
+    | <b> Equal or Above med </b> |     <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-1383562.jpeg?raw=true" alt="A black desktop with a tag" width="200px">   |
 
-4. The Bio image will change the style as follow:
-| Screen Size |        Style       |
-|:------------|:-------------------|
-|below med    |90% of screen width | 
-|med to large |Max-width : 250px   |
-|above large  |Max-width : 200px   |
+    ** Note: The image will not roll down with the viewpont for the screensize equal or bigger that large.
 
+## <span style="color: rgb(220, 105, 1);">Portfolio Page</span>
+1. Every project will consists of an introductory image
+2. Every project title showed on top of the introductory image
+    <div>
+    <div>
+    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/Portofoliosample.png?raw=true" alt="Portfolio sample for Horiseon project" width="200px">
+    </div>
+    <div> *This is a sample of an introductory image </div>
+    </div>
+3. The main body (Portfolio box) layout will be change according to screen size as the table below:
+    | Screen Size  |               Layout               |
+    | :----------: | :--------------------------------: |
+    |  Below Med   | one row and the box in the middle  |
+    | Med to Large | two rows and the box in the middle |
+    | Equal or Above Large  |  two rows and the box right align  |
+4. The background image will change according to the screen size, details as below:
+    | Screen Size  |          Background-image          |
+    | :----------: | :-----------------------: |
+    | <b> Below Med </b>  |   <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-768125-portfolio.jpeg?raw=true" alt="A book shelf with a few books" width="200px">       |
+    | <b> Equal or Above Med </b> |    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-256453-portfolio.jpeg?raw=true" alt="An old style book shelf with multiple column" width="200px">    |
 
+## <span style="color: rgb(220, 105, 1);">Contact Page</span>
+1. The text on the input line will turn to "Orange" while the user is typing their response
+2. The text will turn to light grey after the input completed and valid
+3. Every input area have added placeholder for the user easier reference
+4. If the input is invalid, the following features will apply:
+   * The text on the input line will turn to "red" 
+   * A red border box will show up around the input 
+   * This feature will not apply before move to another coloum or unclick the box
+5. A reminder for the standard style have been placed under the email input line 
+6. The message box have assiged 7 rows as default
+7. The main body (Contact input box) layout will be change according to screen size as  the table below:
+    | Screen Size  |          Layout           |
+    | :----------: | :-----------------------: |
+    |  Below Med   |   one box in the middle   |
+    | Med to Large |   one box in the middle   |
+    | Equal or Above Large  | one box and right aligned |
+8. The background image will change according to the screen size, details as below:
+    | Screen Size  |          Background-image          |
+    | :----------: | :-----------------------: |
+    | <b> Below Med </b>  |   <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-1591062-contact-2.jpeg?raw=true" alt="A scrabble with e m a i l letter" width="200px">   |
+    | <b> Equal or Above Med </b> |    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/pexels-photo-327540-contact.jpeg?raw=true" alt="An business man with a handshake gesture" width="200px">    |
+  
 
-4. Put in the amendment details and the better understanding for further developers.
-
-
-
-| Screen Size |              layout              |
-|:------------|:---------------------------------|
-|below med    |one row and the box in the middle | 
-|med to large |two rows and the box in the middle|
-|above large  |two rows and the box right align  |
-The result is expected to eliminate the unneccessary HTML and CSS code and enhance the reader experience for the site.
-
-## Code Style
+# Code Style
 Standard
 
-## Technology
+## <span style="color: rgb(220, 105, 1);"> Description for the code</span>
+A general description for the every section on the top of the code to breifly explain the puopose of that section and some note for the section details.
+
+  <div>
+  <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/Captureofdescription.PNG?raw=true" alt="Description Example">
+  *example for the section description*
+  </div>
+
+## <span style="color: rgb(220, 105, 1);"> Comment "For Developer" and "Details for Developer"</span>
+In every section, "For Developer" or "Details for Developer" might be added on the comment. These coding details designate for developers in order to get a deeper explanation of the code and facilate for further developing.
+  <div>
+  <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/CaptureofForDeveloper.PNG?raw=true" alt="For Developer Example">
+  *example for the "For Developer" comment*
+  </div>
+
+
+# Technology
 The following technology have been used for this project:
 
   1. HTML
   2. CSS
-  3. Bootstrap
+  3. Bootstrap (Version 4.5)
+  4. Google font
+        * Quicksand
+        * Nunito
+        * Raleway
 
-## Action taken
-List of Changes
-* Change the title from website to Horiseon Social Solution Services for easier to locate the site by search engine
+# Code Example
+Below are some example for the code has been used and the corresponding outsome:
 
-* HTML
-  - Change some of the non-semetic code to semetic one in index.html file include:
-    1. 'div class="header"' to 'header'
-    2. Change 'div class="content"' into 'section'
-    3. Change 'div class="benefit"' into 'aside'
-    4. Change 'div class="footer"' into 'footer'
-  - Add "ALT" element for all the image
-* CSS
-  - Retitle the following CSS section from style.css file:
-    1. Change ".content" to "section"
-    2. Change ".benefit" to "aside" 
-    3. Change ".footer" to "footer"
-  - Combine the CSS following elements:
-    1. ".search-engine-optimization", ".online-reputation-management" and ".social-media-marketing" into one element - "article"
-    2. ".benefit-lead", ".benefit-brand" and ".benefit-cost" into one element - ".benefit"
+1.  Add the favicon
+    Code Example (in html):
+    ```html
+    <link rel="icon" href="../uwbootscamphomework2/assets/image/RFfavicon.jpg" type="image/x-icon" />
+    ```
+    Outcome:
+    <div>
+    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/faviconOutcome.PNG?raw=true" alt="A Favicon sample for my website" width="200px">
+    </div>
+2. Position the main body in different screen size by Bootstrap Grid (including the padding, margin and the column setting) for all 3 html.
+    Code Example (in html):
+    ```html
+      <div class="border col-12 mx-2 px-3 pt-4 mt-3 col-md-12 px-md-4 col-lg-10 px-lg-5 standardcol">
+    ```
+    Outcome (use "Home" page as example)
+    At Small Size Screen:
+    <div>
+    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/homeAtSmallScreen.PNG?raw=true" alt="My about me located in the middle of the small size screen" width="200px">
+    </div>
+    At Medium Size Screen:
+    <div>
+    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/homeAtMediumScreen.PNG?raw=true" alt="My about me located in the middle of the medium size screen" width="200px">
+    </div>
+    At Large Size Screen:
+    <div>
+    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/homeAtLargeScreen.PNG?raw=true" alt="My about me located in the left of the Large size screen" width="200px">
+    </div>
+3. Keep the Contact input for the email as "Orange" for the text when the user is typing. Only change it to red if the email format is invalid after they move to another section.
+    Code Example (in html):
+    ```html
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g. name@example.com">
+    ```
+    ```CSS
+     input:not(:placeholder-shown):not(:focus):invalid {
+            color: rgb(250,145,145);
+            border:rgb(250,145,145) 3px solid;
+            border-radius: 5px; 
+        }
+    ```
+    Outcome:
+    when the user is typing:
+    <div>
+    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/emailInputResponseTyping.PNG?raw=true" alt="typing words in the email input" width="400px">
+    </div>
+    When the response is invalid after the user move to another section:
+    <div>
+    <img src="https://github.com/rickyfuk/uwbootscamphomework2/blob/master/assets/image/emailInputResponseinvalid.PNG?raw=true" alt="a red box and the text turn into red for the email input" width="400px">
+    </div>
+
+# Test
+1. The site have been tested by open with small/medium/large device respectively.
+2. The site have been tested by a HTML validation service - [W3C](https://validator.w3.org/)
 
 
-List of other additional action
-* Add description for every single part of Html and CSS code
-  <div>
-  <img src="https://github.com/rickyfuk/uwbootscamphomework1/blob/master/assets/images/descriptionexample.PNG?raw=true" alt="descriptionExample">
-  *example for the description*
-  </div>
-* List out the amendment details for easier understadning to the future developer
-  <div>
-  <img src="https://github.com/rickyfuk/uwbootscamphomework1/blob/master/assets/images/amendmentexample.PNG?raw=true" alt="amendmentExample">
-  *example for the amendment*
-  </div>
-* Fixed click and navigate function for the "Search Engine Optimation"
-  - Add "id = search-engine-optimization" to the article on line 62 
-  ```html
-       1. Open the html file
-       2. Find the following code block on line 61:
-          <section>
-           <article id= "search-engine-optimization">
-  ```
-* Fixed the entire content to stick in the original position regardless to the viewer point
-  - Add "overflow: auto;" and "min-width:1024px;" to the body CSS section
-  
-  >     1. Open the CSS file
-  >     2. Find the following code block on line 13:
-  ```CSS
-            body {
-               background-color: #d9dcd6;
-               overflow: auto;
-                min-width:1024px;
-               }
-  ```
-
-
-## Status
+# Status
 Project status: finished
 
+# Future Plan
+## <span style="color: rgb(220, 105, 1);">Short Term</span>
+Short term plan for the future development of this site:
+1. Bulid a landing page
+2. Add more projects to the Portfolio (if any)
+3. Add the link to contact me at the end about me (for the word "contact me") so the users can go to the contact me page from there directly. 
 
-## Create By
+## <span style="color: rgb(220, 105, 1);">Long Term</span>
+Long term plan for the future development of this site:
+1. Make the Contact form fully functionable with submitting the information to the database
+2. Add the project site link to the Portfolio image
+3. Change the landing page as index.html and rename the current index.html to aboutme.html (also the name in the nav bar from "home" to "about me" // "home" will replaced by the landing page)
+
+
+# Create By
 Created by Chung Hei Fuk
-
