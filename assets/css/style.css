@@ -172,7 +172,7 @@
         Set the style for the cotent of the main paragraph of "ABOUT ME"
         */
         .aboutmemain p{
-            font-family:'Nunito';
+            font-family:'Nunito', sans-serif;
             font-size: 1rem;
         }
     /* end of Part 5 */
