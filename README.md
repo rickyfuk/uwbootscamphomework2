@@ -35,7 +35,7 @@ In this project, the following features have apply to the site:
 1. Favicon has been added for all 3 pages
 2. Background-images will change based on the page and the viewpoint (details could refer to the features of each specific page)
 3. Most of the Background-images will roll down with the viewpoint (except the home screen with the screensize equal or bigger the large). 
-4. The footer is fixed at the bottom of the page regardless the size of the viewpoint
+4. The footer is fixed at the bottom of the viewpoint.
 
 ## <span style="color: rgb(220, 105, 1);">Navgation Bar - Apply to all 3 pages (Home/Portofio/Contact)</span>
 1. A navagation bar that allowed the user to navagiate within all 3 pages
