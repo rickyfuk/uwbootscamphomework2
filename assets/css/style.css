@@ -13,6 +13,7 @@
 /* Style for the body
     Details for developer:
     -add the padding for the space for nav bar
+    -add the padding for the space for footer
     -add the background-size to ensure the background-image appear only once
     -add the background-color before the image is loaded 
     -Set the background always located in the center
@@ -21,6 +22,7 @@
     -Please refer to the large screen setting for specific setting */
     body{
         padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
         background-size: cover;
         background-color: #343a40;
         background-position: center center;
@@ -229,6 +231,7 @@
             border: transparent;
             border-bottom: 1px solid rgb(220, 105, 1);
             border-radius:0px;
+            font-family: 'Quicksand', sans-serif;
         }
         /*  Part 2 Style for the input area during focus status
              Details for developer:
@@ -424,14 +427,12 @@
         - Adjust the font size, text color (light grey) and background color (dark light black). 
         - Add a orange top border line for the footer box */
         footer {
-            position: relative;
-            bottom:0;
             text-align: center;
             width: 100%;
             padding: 2vw;
             font-size: 1.2rem;
             background-color: #343a40;
             color: rgb(155, 155, 155);
-            border-top: 3px solid rgb(220, 105, 1);
+            border-top: 3px solid rgb(220, 105, 1);       
         }
 /* end of Section 5 */
