@@ -10,7 +10,7 @@
 * [Code Example](#Code-Example)
 * [Test](#Test)
 * [Status](#status)
-* [Future plan](#furure-plan)
+* [Future plan](#future-plan)
 * [Create By](#create-by)
 
 # General info
