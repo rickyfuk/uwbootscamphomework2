@@ -36,6 +36,7 @@ In this project, the following features have apply to the site:
 2. Background-images will change based on the page and the viewpoint (details could refer to the features of each specific page)
 3. Most of the Background-images will roll down with the viewpoint (except the home screen with the screensize equal or bigger the large). 
 4. The footer is fixed at the bottom of the viewpoint.
+5. Linkedin and Facebook button have been placed at the footer for social media contact
 
 ## <span style="color: rgb(220, 105, 1);">Navgation Bar - Apply to all 3 pages (Home/Portofio/Contact)</span>
 1. A navagation bar that allowed the user to navagiate within all 3 pages
@@ -202,7 +203,6 @@ Project status: finished
 Short term plan for the future development of this site:
 1. Bulid a landing page
 2. Add more projects to the Portfolio (if any)
-3. Add the link to contact me at the end about me (for the word "contact me") so the users can go to the contact me page from there directly. 
 
 ## <span style="color: rgb(220, 105, 1);">Long Term</span>
 Long term plan for the future development of this site:

@@ -418,8 +418,8 @@
 /* end of Section 4 */
 
 /* Section 5 - Footer */
-/* Style for the Footer
-    Details for developer:
+    /* Part 1 Style for the Footer body
+        Details for developer:
         - Set the position as "Relative" and "Bottom" as 0 to ensure the footer will only shown up at the bottom of the page
         - Make the text as middle
         - Set the width as 100% in order to cover from front to end in all conditions
@@ -434,5 +434,17 @@
             background-color: #343a40;
             color: rgb(155, 155, 155);
             border-top: 3px solid rgb(220, 105, 1);       
+        }
+    /* end of part 1 */
+
+    /* Part 2 Style for the Social Media logo in the footer
+       Details for developer:
+        - Remove the photo border by setting the border as 0
+        - Set the width of the image as 30px
+        - Add the padding to insert some space between logos */
+        footer img{
+            border: 0px;
+            width:30px;
+            padding-right: 1.2vh;
         }
 /* end of Section 5 */
