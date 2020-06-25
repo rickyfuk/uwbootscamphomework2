@@ -193,7 +193,7 @@
         }
     /* end of part 6 */
 
-    /* Part 7 Style for the Portfolio image caption */
+    /* Part 7a Style for the Portfolio image caption */
         /* **THIS PART FOR "Portfolio.html" only** */
         /*  Details for developer:
             Set the image caption style for each image in "Portfolio" as follow: 
@@ -216,7 +216,78 @@
             background-color:rgb(220, 105, 1);
             max-width: 350px;
         }
-    /* end of Part 7 */ 
+    /* end of Part 7a */
+    
+    /* Part 7b Style for view code button*/
+        /* **THIS PART FOR "Portfolio.html" only** */
+        /*  Details for developer:
+            Set the view code button style for each image in "Portfolio" as follow: 
+            - font-type:Nunito
+            - set the position as relative and top as -20px in order to reduce the gap between the image and the button
+            - Set the text color, font size and background color
+            - Set the width 
+            - Set the hover status as bold
+            - Set the focus status as bold and the outline as orange
+            - Set the active status to change the word in orange-yellow
+        */    
+        .portmain .buttonRow{
+            width: 90%;
+        }
+
+        .portmain .visitsite{
+            font-family: 'Quicksand', sans-serif;
+            position: relative;
+            top: -20px;
+            width:100%;
+            background-color: transparent!important;
+            color: rgb(220, 105, 1)!important;
+            border-radius:0;
+            border-top: transparent;
+            border-bottom: transparent;
+            border-left: transparent;
+            border-color: rgb(220, 105, 1)!important;
+        }
+
+        .portmain .visitsite:hover{
+            font-weight: bold;
+        }
+
+        .portmain .visitsite:focus{
+            font-weight: bold;
+            outline-color:rgb(220, 105, 1)!important ;
+            box-shadow: none!important;
+        }
+
+        .portmain .visitsite:active{
+            outline-color:rgb(240, 196, 157)!important; ;
+        }
+
+        .portmain .viewcode{
+            font-family: 'Quicksand', sans-serif;
+            position: relative;
+            top: -20px;
+            width:100%;
+            background-color: transparent!important;
+            color: rgb(220, 105, 1)!important;
+            border-radius:0;
+            border-color:transparent!important;
+        }
+
+        .portmain .viewcode:hover{
+            font-weight: bold;
+        }
+
+        .portmain .viewcode:focus{
+            font-weight: bold;
+            outline-color:rgb(220, 105, 1)!important;
+            box-shadow: none!important;
+        }
+
+        .portmain .viewcode:active{
+            outline-color:rgb(240, 196, 157)!important; ;
+        }
+
+    /* end of Part 7b */ 
 
     /* Part 8 Style for the form */
         /* **THIS PART FOR "contact.html" only** */
@@ -376,7 +447,7 @@
                     In the middle screen of the "portfolio.html", the background image change to "256453" */
                     /*  **THIS SEGMENT FOR "portfolio.html" ONLY** */       
                     .portbody{
-                        background-image: url(https://images.pexels.com/photos/256453/pexels-photo-256453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+                        background-image: url(../image/mainPortfolio.jpg);
                     }
                 /* end of Segment 2 */
 
