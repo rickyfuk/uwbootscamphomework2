@@ -1,6 +1,6 @@
 /* Section 1 - Full*/
 /* Style for the all the following 3 pages
-    1. index.html
+    1. aboutme.html
     2. contact.html
     3. portfolio.html
     All the style apply to all 3 pages unless specified otherwise */
@@ -20,7 +20,7 @@
     -Set the background picture to roll down with the viewpont 
      (background-position/background-attachment/background-repeat)
     -Please refer to the large screen setting for specific setting */
-    body{
+    .contactbody,.portbody,.aboutmebody {
         padding-top: 7.5rem;
         padding-bottom: 7.5rem;
         background-size: cover;
@@ -169,7 +169,7 @@
     /* end of Part 4 */
 
     /* Part 5 Style for the paragraph in "Home" page*/
-        /* **THIS PART FOR "index.html" ONLY**
+        /* **THIS PART FOR "aboutme.html" ONLY**
         Details for developer:
         Set the style for the cotent of the main paragraph of "ABOUT ME"
         */
@@ -369,7 +369,7 @@
         @media screen and (min-width: 200px) {
 
             /* Unit 1 Style for personal image in Home Page*/
-            /*  **THIS UNIT FOR "index.html" ONLY** */
+            /*  **THIS UNIT FOR "aboutme.html" ONLY** */
             /*  Details for developer:
                 Set the width as 90% for the bio-image for small screen */
             .aboutmemain #bio-image{
@@ -380,8 +380,8 @@
             /* Unit 2 Style for background image */
                 /* Segment 1 Background style for Home 
                     Detail for developer:
-                    In the small screen of the "index.html", the background image "1738994" is used */
-                /*  **THIS SEGMENT FOR "index.html" ONLY** */
+                    In the small screen of the "aboutme.html", the background image "1738994" is used */
+                /*  **THIS SEGMENT FOR "aboutme.html" ONLY** */
                 .aboutmebody{
                     background-image: url(../image/pexels-photo-1738994-2.jpeg);
                 }
@@ -435,8 +435,8 @@
             /* Unit 3 Style for background image */
                 /* Segment 1 Background style for Home 
                     Detail for developer:
-                    In the middle size screen of the "index.html", the background image "1383562" */
-                    /*  **THIS SEGMENT FOR "index.html" ONLY** */
+                    In the middle size screen of the "aboutme.html", the background image "1383562" */
+                    /*  **THIS SEGMENT FOR "aboutme.html" ONLY** */
                     .aboutmebody{
                         background-image: url(../image/pexels-photo-1383562.jpeg);
                     }
@@ -479,7 +479,7 @@
                 - same image adpot from the middle size screen style 
                 - The image will only stay in the original position 
                 (not rolling down with the viewpoint)*/
-                 /*  **THIS UNIT FOR "index.html" ONLY** */
+                 /*  **THIS UNIT FOR "aboutme.html" ONLY** */
                 .aboutmebody{   
                 background-attachment: initial;
                 }
@@ -519,3 +519,169 @@
             padding-right: 1.2vh;
         }
 /* end of Section 5 */
+
+/* Section 6 - Landing Page */
+    /* part 1 - the body of the landing page 
+        Details for developer:
+        - Set the height for the html page as full screen*/
+        .landinghtml{
+            height:100%;
+        }
+    /* end of part 1 */
+
+    /* part 2 - the style setting for the top part during the small screen */
+        /* unit 1 - set the top part height as half page */
+            .landingPage .topsm{    
+                height:50%;
+            }
+        /* end of unit 1 */
+
+        /* unit 2 - set the style for the "hello" part */
+            .landingPage .smhead1jumbo{
+                font-family: 'Comfortaa', cursive;
+                background-color: #343a40;
+                color: rgb(220, 105, 1);
+                height: 40%;
+                padding-top: 50px;
+            }
+
+            .landingPage .smhead1jumbo h1{
+                font-size: 20vw;
+                line-height: 0.6!important;
+            }
+        /* end of unit 2 */
+
+        /* unit 3 - set the style for the "I AM RICKY FUK" part */
+            .landingPage .smhead2jumbo{
+                font-family: 'Comfortaa', cursive;
+                background-color: rgb(220, 105, 1);
+                color: whitesmoke;
+                font-size: 2rem!important;
+                height:60%;
+            }
+        /* end of unit 3 */
+    /* end of part 2 */
+
+    /* part 3 - the style setting for the top part during the med screen or above */
+        /* Details for developer: 
+            Thus part have broken into 4 piece
+            -toptopleft
+            -toptopright
+            -topbottomleft
+            -topbottomright
+            where 4 rectangles boxes*/
+        /* unit 1 - the overall style */
+            .landingPage .topmd{
+                height:50%!important;
+                max-width: 100% !important;
+                font-family: 'Comfortaa', cursive;
+            }
+        /* end of unit 1 */
+
+        /* unit 2 - the style for first row (toptopleft + toptopright) */
+            .landingPage .toptoprow{
+                height:40%!important;
+            }
+        /* end of unit 2 */
+
+        /* unit 3 - the style for second row (topbottomleft + topbottomright) */
+            .landingPage .topbottomrow{
+                height:60%!important;
+            }
+        /* end of unit 3 */
+
+        /* unit 4 - the style for toptopleft */
+            .landingPage .topmd .toptopleft{
+                background-color: #343a40;
+                color: rgb(220, 105, 1);
+                margin:0;
+                height:40%;
+            }
+
+            .landingPage .topmd .toptopleft h1{
+                font-size: 8vw!important;
+                border-spacing: 0px;
+                padding-top: 100px;
+                line-height: 0.65!important;
+                padding-right: 30px;
+            }
+        /* end of unit 4 */
+
+        /* unit 5 - the style for toptopright */
+            .landingPage .topmd .toptopright{
+                background-color: rgb(220, 105, 1);
+            }
+        /* end of unit 5 */
+
+        /* unit 6 - the style for topbottomleft */
+            .landingPage .topmd .topbottomleft{
+                background-color: #343a40;
+            }
+        /* end of unit 6 */
+
+        /* unit 7 - the style for topbottomright */
+            .landingPage .topmd .topbottomright{
+                background-color:rgb(220, 105, 1);
+                color: whitesmoke;
+                margin:0;
+                height:60%;
+            }
+
+            .landingPage .topmd .topbottomright h1{
+                font-size: 5vw!important;
+                border-spacing: 0px;
+                padding-bottom: 100px;
+                line-height: 0.9!important;
+            }
+        /* end of unit 7 */
+
+    /* end of Part 3 */
+
+    /* part 4 - style for the bottom */
+        .landingPage .bottom{
+            min-height:500px;
+        }
+
+        .landingPage .landingselfimg img{
+            border-radius: 50%;
+            border-style: solid;
+            border-color: rgb(220, 105, 1);
+            border-width: 2.5px;
+        }
+
+        .landingPage .landingtext{
+            font-family: 'Raleway', sans-serif;
+            color: rgb(220, 105, 1);
+            font-size: 2.5em;
+        }
+        /* for the get started button */
+        .landingPage .btn-secondary{
+            background-color: rgb(220, 105, 1) ;
+            border: none;
+            color:  whitesmoke;
+        }
+
+        .landingPage .btn-secondary:hover{
+            color:  rgb(155, 155, 155);
+            border-color: rgb(155, 155, 155);
+            border-width: 10px;
+        }
+
+        /* end of get stated button */
+        .landingPage .bottom{
+            background-color: black;
+            background-image: url(../image/landingpagebackground.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+
+        /* for the logo in the landing page */
+        .landinglogo img{
+            border: 0px;
+            width:30px;
+            padding-right: 1.2vh;
+        }
+
+    /* end of part 4 */
+/* end of section 6 */
