@@ -1,81 +1,111 @@
 <!DOCTYPE html>
 <html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- title for portfolio -->
+		<title>My Portfolio - See my masterpiece</title>
+		<!-- CSS reset -->
+		<link rel="stylesheet" type="text/CSS" href="assets/css/reset.css" />
+		<!-- Connect to Bootstrap album -->
+		<link
+			rel="canonical"
+			href="https://getbootstrap.com/docs/4.5/examples/album/"
+		/>
+		<!-- BootstrapCDN -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+		<!-- Google font -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Quicksand&family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Custom styles for the local CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<!-- Add the faricon -->
+		<link
+			rel="icon"
+			href="../uwbootscamphomework2/assets/image/RFfavicon.jpg"
+			type="image/x-icon"
+		/>
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- title for portfolio -->
-    <title>My Portfolio - See my masterpiece</title>
-    <!-- CSS reset -->
-    <link rel="stylesheet" type="text/CSS" href="assets/css/reset.css">
-    <!-- Connect to Bootstrap album -->
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
-    <!-- BootstrapCDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Quicksand&family=Raleway&display=swap" rel="stylesheet">
-    <!-- Custom styles for the local CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- Add the faricon -->
-    <link rel="icon" href="../uwbootscamphomework2/assets/image/RFfavicon.jpg" type="image/x-icon" />
-
-</head>
-
-<body class="portbody">
-    
-    <!-- Header section 
+	<body class="portbody">
+		<!-- Header section 
          Description for this section:
          Consists of a nav bar for the name and the nav link to other pages.-->
-    
-    <!-- For Developer:
+
+		<!-- For Developer:
          Fixed nav bar tempatle copy from bootstrap 4.5 
          Note: Same html header and footer code has been used for aboutme.html, contact.html and portfolio.html 
           !!!Please be remined that amendment are required for all three tabs if any changes on header and footer section -->
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <div class="contianer">
-                <!-- For Developer:
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+				<div class="contianer">
+					<!-- For Developer:
                      Personal name in text have been used instead of brand logo as default -->
-                <h1 class="navbar-brand">Chung Hei Fuk (Ricky)
-                </h1>
-            </div>    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                        <!-- For Developer:
+					<h1 class="navbar-brand">Chung Hei Fuk (Ricky)</h1>
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarsExampleDefault"
+					aria-controls="navbarsExampleDefault"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+					<!-- For Developer:
                              "ml-auto" have been used to make the nav selection bar move to right hand side" -->
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="aboutme.html">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-        
-        </nav>
-    </header>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="aboutme.html">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 
-    <!-- Main body section
+		<!-- Main body section
         Description for this section:
         Display the photo and the name of the project 
 
         For Developer:
         The Bootstrap Grid has been widely used for this section-->
-    <main class= "portmain">
-        <section>
-              <!-- For Developer:
+		<main class="portmain">
+			<section>
+				<!-- For Developer:
                  To create the grid, the following two steps have been taken place 
                   1. Rows function in containers by 'class:"container"''
                   2. Columns function in rows by 'class:"row mx-0"''
@@ -83,21 +113,23 @@
                       reinstante the left and right margin from the default with 
                       no margin in xs screen 
              -->
-            <div class= "container">
-                <div class= "row mx-0">
-                    <!-- First row with 12 column (this row is designed for title)
+				<div class="container">
+					<div class="row mx-0">
+						<!-- First row with 12 column (this row is designed for title)
                          Details for developer:
                          1. 12 columns have been used for screen below medium
                          2. 10 colums have been used for screen with large according to the requirment
                             2 rows were unused intentionally
                         -->
-                    <div class="border col-12 pl-3 pt-4 mt-3 col-md-12 px-md-4 col-lg-10 px-lg-5 standardcol">
-                        <h2>
-                            Portfolio
-                        </h2>
-                        <!-- "hr" has been used for the break line between the heading and the content-->
-                        <hr>
-                        <!--2nd row - The main content for the portfolio
+						<div
+							class="border col-12 pl-3 pt-4 mt-3 col-md-12 px-md-4 col-lg-10 px-lg-5 standardcol"
+						>
+							<h2>
+								Portfolio
+							</h2>
+							<!-- "hr" has been used for the break line between the heading and the content-->
+							<hr />
+							<!--2nd row - The main content for the portfolio
                             This section will show the the project name and some refernce picture for an introdcution
                             The layout for displaying the portfolio:
                                 Screen size less than medium - one row 
@@ -108,111 +140,183 @@
                              3. full width (12 grid / 1 column) has been applied to the screen size less than medium
                              4. half width (6 grid / 2 column) has been applied to the screen size more or equal to medium
                             -->
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-lg-6 text-center">
-                                <img src="assets/image/hw2-1.jpg" alt="a desk with an iphone, books and stationary" class="img-fluid img-responsive">
-                                <div class="image-caption mx-auto">Horiseon Refactor
-                                </div>
-                                <div class="row buttonRow mx-auto">
-                                    <div class="col-6 text-center px-0">
-                                        <a href="https://rickyfuk.github.io/uwbootscamphomework1/" class="visitsite mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">Visit Site</a>
-                                    </div>
-                                    <div class="col-6 text-center px-0">
-                                        <a href="https://github.com/rickyfuk/uwbootscamphomework1" class="viewcode mb-2 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-6 text-center">
-                                <img src="assets/image/passwordGeneratorScreenshot2.PNG" alt="Password Generator by Ricky Fuk" class="img-fluid">
-                                <div class="image-caption mx-auto">Password Generator
-                                </div>
-                                <div class="row buttonRow mx-auto">
-                                    <div class="col-6 text-center px-0">
-                                        <a href="https://rickyfuk.github.io/uwbootscamphomework3/" class="visitsite mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">Visit Site</a>
-                                    </div>
-                                    <div class="col-6 text-center px-0">
-                                        <a href="https://github.com/rickyfuk/uwbootscamphomework3" class="viewcode mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-6 text-center">
-                                <img src="assets/image/codequizScreenshotForPro.png" alt="a tree under a midnight sun" class="img-fluid">
-                                <div class="image-caption mx-auto">Code Quiz
-                                </div>
-                                <div class="row buttonRow mx-auto">
-                                    <div class="col-6 text-center px-0">
-                                        <a href="https://rickyfuk.github.io/uwbootscamphomework4/" class="visitsite mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">Visit Site</a>
-                                    </div>
-                                    <div class="col-6 text-center px-0">
-                                        <a href="https://github.com/rickyfuk/uwbootscamphomework4" class="viewcode mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-6 text-center">
-                                <img src="assets/image/hw2-4.jpg" alt="a city view from a high spot" class="img-fluid ">
-                                <div class="image-caption mx-auto">Coming Soon
-                                </div>
-                                <div class="row buttonRow mx-auto">
-                                    <div class="col-6 text-center px-0">
-                                        <a href="#" class="visitsite mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">Visit Site</a>
-                                    </div>
-                                    <div class="col-6 text-center px-0">
-                                        <a href="#" class="viewcode mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-md-6 col-lg-6 text-center">
-                                <img src="assets/image/hw2-5.jpg" alt="a few cups on a cafe table" class="img-fluid">
-                                <div class="image-caption mx-auto">Coming Soon
-                                </div>
-                                <div class="row buttonRow mx-auto">
-                                    <div class="col-6 text-center px-0">
-                                        <a href="#" class="visitsite mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">Visit Site</a>
-                                    </div>
-                                    <div class="col-6 text-center px-0">
-                                        <a href="#" class="viewcode mb-1 btn btn-outline-light btn-lg active" role="button" aria-pressed="true">View Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main> 
+							<div class="row">
+								<div class="col-12 col-md-6 col-lg-6 text-center">
+									<img
+										src="assets/image/hw2-1.jpg"
+										alt="a desk with an iphone, books and stationary"
+										class="img-fluid img-responsive"
+									/>
+									<div class="image-caption mx-auto">Horiseon Refactor</div>
+									<div class="row buttonRow mx-auto">
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://rickyfuk.github.io/uwbootscamphomework1/"
+												class="visitsite mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>Visit Site</a
+											>
+										</div>
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://github.com/rickyfuk/uwbootscamphomework1"
+												class="viewcode mb-2 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>View Code</a
+											>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-6 text-center">
+									<img
+										src="assets/image/passwordGeneratorScreenshot2.PNG"
+										alt="Password Generator by Ricky Fuk"
+										class="img-fluid"
+									/>
+									<div class="image-caption mx-auto">Password Generator</div>
+									<div class="row buttonRow mx-auto">
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://rickyfuk.github.io/uwbootscamphomework3/"
+												class="visitsite mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>Visit Site</a
+											>
+										</div>
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://github.com/rickyfuk/uwbootscamphomework3"
+												class="viewcode mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>View Code</a
+											>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-6 text-center">
+									<img
+										src="assets/image/codequizScreenshotForPro.png"
+										alt="code quiz screenshot"
+										class="img-fluid"
+									/>
+									<div class="image-caption mx-auto">Code Quiz</div>
+									<div class="row buttonRow mx-auto">
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://rickyfuk.github.io/uwbootscamphomework4/"
+												class="visitsite mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>Visit Site</a
+											>
+										</div>
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://github.com/rickyfuk/uwbootscamphomework4"
+												class="viewcode mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>View Code</a
+											>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-6 col-lg-6 text-center">
+									<img
+										src="assets/image/workDayPlanner2.png"
+										alt="Work day planner screenshot"
+										class="img-fluid"
+									/>
+									<div class="image-caption mx-auto">Day Planner</div>
+									<div class="row buttonRow mx-auto">
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://rickyfuk.github.io/uwbootscamphomework5/"
+												class="visitsite mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>Visit Site</a
+											>
+										</div>
+										<div class="col-6 text-center px-0">
+											<a
+												href="https://github.com/rickyfuk/uwbootscamphomework5"
+												class="viewcode mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>View Code</a
+											>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12 col-md-6 col-lg-6 text-center">
+									<img
+										src="assets/image/hw2-5.jpg"
+										alt="a few cups on a cafe table"
+										class="img-fluid"
+									/>
+									<div class="image-caption mx-auto">Coming Soon</div>
+									<div class="row buttonRow mx-auto">
+										<div class="col-6 text-center px-0">
+											<a
+												href="#"
+												class="visitsite mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>Visit Site</a
+											>
+										</div>
+										<div class="col-6 text-center px-0">
+											<a
+												href="#"
+												class="viewcode mb-1 btn btn-outline-light btn-lg active"
+												role="button"
+												aria-pressed="true"
+												>View Code</a
+											>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-    <!-- Footer Section
+		<!-- Footer Section
     Description for this section:
     A sticky footer with the copyright and the sign. 
     (The footer will follow the viewpoint to roll down) 
     Details for developer:
     1. "fixed-bottom" bootstrap class have been used to make the footer sticky
     -->
-    <footer class="fixed-bottom">
-        <!-- Create a grid inside the footer -->
-        <div class="container">
-            <div class="row">
-                <!-- First 4 column in the row to put the linkden and facebook logo
+		<footer class="fixed-bottom">
+			<!-- Create a grid inside the footer -->
+			<div class="container">
+				<div class="row">
+					<!-- First 4 column in the row to put the linkden and facebook logo
                      Details for developer:
                      1. Added "d-flex" and "Justfify-content-start" to align the logo at the right hand side  
                  -->
-                <div class="col-4 d-flex justify-content-start">
-                    <a href="https://linkedin.com/in/ricky-fuk-a77466139">
-                    <img src="assets/image/linkedin.png" alt="linkedin logo">
-                    </a>
-                    <a href="https://facebook.com/rickyfukfuk">
-                        <img src="assets/image/facebook.png" alt="linkedin logo">
-                    </a>
-                </div>
-                <!-- Second 4 column in the row to put the copy message -->
-                <div class="col-4">
-                Copyright &copy; 
-                </div>
-            </div>
-        </div>
-    </footer>
-
-</body>
-
-
+					<div class="col-4 d-flex justify-content-start">
+						<a href="https://linkedin.com/in/ricky-fuk-a77466139">
+							<img src="assets/image/linkedin.png" alt="linkedin logo" />
+						</a>
+						<a href="https://facebook.com/rickyfukfuk">
+							<img src="assets/image/facebook.png" alt="linkedin logo" />
+						</a>
+					</div>
+					<!-- Second 4 column in the row to put the copy message -->
+					<div class="col-4">
+						Copyright &copy;
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
