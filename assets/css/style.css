@@ -234,7 +234,7 @@ h2 {
 	padding-left: 15px;
 }
 
-.flex-center {
+.portmain .flex-center {
 	display: flex;
 	align-items: flex-end;
 	padding-bottom: 30%;
